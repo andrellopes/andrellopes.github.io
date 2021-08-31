@@ -975,13 +975,12 @@ input, textarea, select{
 #whatsapp {
     position: absolute;
     right: 40px;
-    /* top: 40px; */
-    bottom: 20px;
+    bottom: 10px;
     z-index: 999;
 }
 
 #whatsapp svg {
     width: 50px;
-    -webkit-filter: drop-shadow(0px 0px 10px #555);
-    filter: drop-shadow(0px 0px 10px #555);
+    -webkit-filter: drop-shadow(0px 0px 05px #555);
+    filter: drop-shadow(0px 0px 05px #555);
 }
