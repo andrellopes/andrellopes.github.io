@@ -803,7 +803,6 @@ input, textarea, select{
 
 }
 
-
 @media (max-width:1199px){
 
     .section .container{
@@ -975,12 +974,12 @@ input, textarea, select{
 #whatsapp {
     position: absolute;
     right: 20px;
-    bottom: 05px;
+    bottom: 0px;
     z-index: 999;
 }
 
 #whatsapp svg {
     width: 50px;
-    -webkit-filter: drop-shadow(0px 0px 03px #555);
-    filter: drop-shadow(0px 0px 03px #555);
+    -webkit-filter: drop-shadow(0px 0px 05px #555);
+    filter: drop-shadow(0px 0px 05px #555);
 }
