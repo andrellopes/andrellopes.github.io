@@ -973,9 +973,10 @@ input, textarea, select{
 }
 
 #whatsapp {
+    position: absolute;
     right: 40px;
     /* top: 40px; */
-    bottom: 05px;
+    bottom: 20px;
     z-index: 999;
 }
 
