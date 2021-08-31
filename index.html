@@ -11,9 +11,7 @@
 
 <body>
     <!-- WhatsApp -->
-    <div v-if="whatsapp" id="whatsapp" class="position-fixed no-print d-print-none">
-        <button @click="whatsapp=false" id="btnFechar" class="btn btn-invisible position-absolute" type="button" style="top:0;right:-20px;">
-            <span class="fa fa-times text-red"></span></button>
+    <div v-if="whatsapp" id="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=%2B5512981571400?&text=Ola!" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80"
             viewBox="0 0 1219.547 1225.016">
