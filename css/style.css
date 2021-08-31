@@ -974,13 +974,13 @@ input, textarea, select{
 
 #whatsapp {
     position: absolute;
-    right: 40px;
-    bottom: 10px;
+    right: 20px;
+    bottom: 05px;
     z-index: 999;
 }
 
 #whatsapp svg {
     width: 50px;
-    -webkit-filter: drop-shadow(0px 0px 05px #555);
-    filter: drop-shadow(0px 0px 05px #555);
+    -webkit-filter: drop-shadow(0px 0px 03px #555);
+    filter: drop-shadow(0px 0px 03px #555);
 }
