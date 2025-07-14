@@ -1,0 +1,63 @@
+Escolha estratégica de app
+
+Vamos focar em um app com:
+
+Uso quase diário
+Nicho com dor real, pouco atendido
+Pouca concorrência ou apps ruins
+Simples o bastante pra um dev solo fazer rápido
+
+Escolhido: aBoletosFix – Atualizador de código de barras de boletos vencidos.
+Por quê? Todo mês alguém precisa disso. Os apps existentes são feios, bugados, cheios de ads. É um app que resolve uma dor real em segundos.
+
+🔧 Funcionalidades do MVP
+aBoletosFix – Atualizador de Boletos Vencidos
+Câmera para escanear código de barras (ou digitar)
+Atualizar valor com juros e multa (percentual padrão ou customizado)
+Gerar novo código de barras
+Copiar, compartilhar ou salvar o novo boleto
+Histórico básico das últimas atualizações
+Ads discretos
+Versão Pro: sem ads + salvar boletos + exportar PDF
+
+📅 Plano de 4 semanas para lançar
+
+✅ Semana 1 – MVP funcional
+Estrutura do projeto
+Leitor de código de barras (package: mobile_scanner)
+Cálculo de juros/multa simples
+Tela principal: input manual e leitura por scanner
+Resultado: novo código gerado
+
+✅ Semana 2 – Layout e funcionalidades extras
+Layout bonito e responsivo (Dark/Light Theme)
+Tela de histórico
+Share e copiar código atualizado
+Ads (Banner AdMob)
+Splash screen, ícone, permissões
+
+✅ Semana 3 – Versão Pro
+In-App Purchase simples (remover Ads)
+Botão de upgrade com comparação entre versão gratuita e Pro
+Tela “Sobre” com botão de PIX
+Testes finais com vários boletos reais
+
+✅ Semana 4 – Publicação e marketing
+Screenshots (Play Store)
+Texto ASO com palavras-chave: “atualizar boleto”, “boleto vencido”, “gerar código atualizado”
+Subir na Google Play (Beta fechado primeiro, depois produção)
+Postar em grupos de boleto, contas digitais, etc.
+
+🎯 Depois do lançamento
+Coletar feedback via Firebase/Analytics
+Atualização 1.1 com:
+Tema customizado
+Exportar boleto como imagem/PDF
+Notificação de vencimento (opcional)
+
+💰 Monetização esperada
+Ads: intersticial 1x por uso ou banner na tela final
+Pro: R$6,99 para remover ads e liberar recursos extras
+Estimativa (com 5K downloads em 2 meses):
+Ads: R$150 ~ R$400/mês
+Pro: R$200 ~ R$600/mês (se 3 a 5% converterem)

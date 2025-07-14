@@ -1,0 +1,110 @@
+aClock – Contador de Toques (feito)
+ - Cor, fonte, tamanho e posição personalizáveis
+ - Animação de deslize ativável
+ - Exibe hora, data e dia da semana
+ - Tema claro/escuro automático
+ - Tela sempre ligada
+ - Tela oculta de configurações
+ - Tela "Sobre" com botão de PIX
+ - Banner AdMob
+ - Versão Pro: sem anúncios, fontes extras, temas premium
+
+aCounter – Contador de Toques (feito)
+ - Contador simples que incrementa ao tocar na tela.
+ - Som e vibração configuráveis
+ - Contador reverso (de X até 0)
+ - Vários contadores salvos
+ - Tema claro/escuro
+ - Ads simples (banner na tela)
+
+aChessTime – Relógio de Xadrez Digital (desenvolvento)
+ - Relógio de xadrez com controle de tempo individual (brancas/pretas)
+ - Suporte a incremento por jogada (Fischer Time)
+ - Interface limpa e responsiva, com toque para alternar o turno
+ - Pausa e reinício da partida
+ - Sons de aviso e fim de tempo
+ - Tela sempre ativa durante partidas
+ - Personalização de tempo inicial, incremento e cor inicial
+ - Ads discretos
+ - Versão Pro: sem anúncios, temas visuais premium, sons extras
+
+aTikTime – Metrônomo Visual e Sonoro
+ - Tempo configurável (BPM) com interface intuitiva
+ - Compassos: 1/4, 2/4, 3/4, 4/4, 6/8 e outros
+ - Som de batida com acento no primeiro tempo
+ - Animação visual para marcação (círculo, barra, flash)
+ - Modo paisagem para melhor visualização
+ - Contagem automática de compassos
+ - Shake para iniciar/parar (opcional)
+ - Ads simples
+ - Versão Pro: sons extras (bateria, palmas, clicks eletrônicos), tema escuro, modo contínuo
+
+aPet – Cuidados e Agenda Pet
+ - Cadastro de pets (nome, raça, idade, foto)
+ - Registro de vacinas e vermífugos com datas
+ - Lembretes de banho, tosa, ração e consultas
+ - Agenda com notificações automáticas
+ - Histórico de eventos e anotações
+ - Controle de estoque de ração e alertas de reposição
+ - Ads leves
+ - Versão Pro: sem anúncios, múltiplos pets, temas extras
+
+aShoppingList – Lista de Compras Inteligente 
+ - Criação rápida de listas de compras 
+ - Campo para nome, quantidade e preço estimado
+ - Marcar item como comprado e descontar da lista
+ - Soma automática do total da compra
+ - Opção de salvar listas anteriores
+ - Ads discretos
+ - Versão Pro: listas favoritas, backup e exportação
+
+aDiceTime – Dados Virtuais
+ - Jogo de dados virtuais pra RPG, boardgames, etc.
+ - Rolagem de D6, D20, D12, etc.
+ - Efeitos sonoros e animações
+ - Histórico de rolagens
+ - Shake-to-roll
+ - Ads + desbloqueio de skins e temas
+
+aNoiseTime – Ruído Branco para Dormir
+ - Ruídos calmantes: chuva, vento, mar, etc.
+ - Timer de desligamento
+ - Combinar sons (chuva + trovão)
+ - Visual simples e relaxante
+ - Ads intersticiais no início
+ - Versão Pro com mais sons
+
+aIntervalTime – Temporizador de Treino
+ - Para treino HIIT, Tabata, etc.
+ - Define tempo de exercício e descanso
+ - Toques ou sons entre fases
+ - Ads + presets e customização Pro
+
+aFocusTime – Temporizador Pomodoro
+ - App de produtividade com sessões de foco e descanso.
+ - Sessões: 25 min foco / 5 min pausa (configurável)
+ - Contador visual (círculo, barra, etc.)
+ - Notificações e som ao finalizar
+ - Tela sempre ativa durante sessões
+ - Ads + versão Pro sem anúncios
+
+
+| App               | Potencial | Observação                                                      |
+| ----------------- | --------- | --------------------------------------------------------------- |
+| **aFocusTime**    | 🔥🔥🔥    | Alta busca, muitos usam diariamente                             |
+| **aNoiseTime**    | 🔥🔥      | Se o som for bom e o visual bonito, rende                       |
+| **aShoppingList** | 🔥🔥      | Útil, mas concorrido — diferencial é simplicidade + somar preço |
+| **aPet**          | 🔥        | Bom pra retenção, se for visualmente fofo                       |
+| **aClock**        | 🔥        | Pode render com TVs, docks etc.                                 |
+| **aCounter**      | 🔥        | Muito usado por nichos: igrejas, academia, etc.                 |
+
+
+| App             | Por quê pode dar dinheiro                                                          |
+| --------------- | ---------------------------------------------------------------------------------- |
+| **aChurchTime** | Timer + contador + versículos para cultos                                          |
+| **aBoletosFix** | Scanner de boleto vencido que atualiza código de barras (já existe, mas mal feito) |
+| **aPIXTool**    | Gera QR Code do PIX com valor e descrição (pra caixa de loja, feira)               |
+| **aRPGKit**     | Dados + Ficha de personagem + Nomeador + Mapas                                     |
+| **aMedTime**    | Lembrete de remédio, com som, vibração e histórico                                 |
+| **aSchoolNote** | App simples de chamada, notas e observações pro professor                          |
+| **aBibleTime**  | Devocional diário + marcador + versículo do dia                                    |
