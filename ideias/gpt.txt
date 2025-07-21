@@ -1,52 +1,36 @@
  A IDEIA MATADORA:
 📲 aPixFast – Gerador Inteligente de PIX com Catálogo e Vendas
 App que microempreendedores/autônomos usam pra:
-
 Criar e salvar links de pagamento PIX com descrição e valor
-
 Compartilhar com cliente (WhatsApp, Instagram, etc.)
-
 Ver histórico e registrar recebimentos
-
 Fazer "catálogo simples" com preço, imagem e botão de pagar por PIX
 
 💡 Por que esse app?
 Resolve dor real de milhões de pessoas (salgadeiros, artesãos, manicures, brechós, etc.)
-
 Usado diariamente
-
 Não concorre com bancos: faz o que eles não fazem (simplicidade + catálogo)
-
 Abre espaço pra versão Pro e vendas internas
-
 Público mais propenso a pagar (quem vende, gasta pra vender melhor)
 
 💰 Como monetiza?
 Ads: banner e intersticial no uso gratuito
-
 Pro: R$9,90 única ou R$2,99/mês (remover ads + salvar + catálogo completo)
-
 Loja de temas visuais, fontes, sons
-
 Versão “Catálogo Pro” com até 50 itens (pra pequenos vendedores)
 
 🔥 Funcionalidades por versão
 🎯 MVP
 Geração de QR Code de pagamento (valor + descrição)
-
 Compartilhar via WhatsApp
-
 Histórico simples
 
 Ads
 
 🪙 Pro
 Salvar cobranças frequentes
-
 Modo catálogo (nome, preço, imagem, botão “copiar QR PIX”)
-
 Backup em nuvem (Firebase)
-
 Tema escuro e customizações
 
 📅 Plano de 12 meses: (curto e direto)

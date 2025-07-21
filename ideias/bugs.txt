@@ -1,0 +1,11 @@
+aClock
+-
+
+aCounter
+- não esta vibrando;
+- não esta rodando em modelo antigo;
+
+aFocusTime
+- limpar tela do sobre;
+- não esta rodando em modelo antigo;
+- não esta exibindo addmob;
