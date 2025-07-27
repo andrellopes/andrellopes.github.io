@@ -1,17 +1,14 @@
 /*IMPORTANDO ICONES - Font Awesome Free Icon*/
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url('<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">');
-@import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
-/* VARIAVÉIS DE COR*/
+/* VARIÁVEIS DE COR*/
 :root {
     --color-blue: #ca3f08; 
     --color-text:#3d5a6a;
     --color-title:#213d49;
-    --color-grey:#f7e1b8;
     --color-timeline:#fdf9ff;
     --color-border: #d4d4e3;
-  }
+}
 
 /*Geral*/
 body{
@@ -201,21 +198,6 @@ input, textarea, select{
     overflow-y: auto;
 }
 
-.lateral .perfil{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.lateral .perfil img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 8px solid #ffffff;
-}
-
 .sombra{
     -webkit-box-shadown: 0 0 20px rgba(48, 46, 77, 0.15);
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -341,7 +323,6 @@ input, textarea, select{
 .home .intro img{
    width: 60%;
     display: inline-block;
-
 }
 
 .home .intro h1{
@@ -359,6 +340,16 @@ input, textarea, select{
     color: var(--color-text);  
     margin: 0;
     line-height: 30px;
+}
+
+.home .intro p a{
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.home .intro p a:hover{
+    color: var(--color-title);
+    text-decoration: underline;
 }
 
 .home .intro .redes-sociais{
@@ -421,56 +412,6 @@ input, textarea, select{
 .sobre .sobre-conteudo .buttons .btn{
     margin-right:15px; 
     margin-top: 10px ;
-}
-
-.sobre .sobre-conteudo .skills{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 50px;
-}
-
-.sobre .sobre-conteudo .skills-item{
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 15px ;
-}
-
-.sobre .sobre-conteudo .skills-item h5{
-    line-height: 20px;
-    font-weight: 600;
-    font-size: 15px; 
-    color: var(--color-text);
-    text-transform: capitalize;
-    margin: 0;
-}
-
-.sobre .sobre-conteudo .skills-item .progresso{
-    background-color: var(--color-grey);
-    height: 8px;
-    border-radius: 4px;
-    widows: 100%;
-    position: relative;
-}
-
-.sobre .sobre-conteudo .skills-item .progresso .progreso-in{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    border-radius: 4px;
-    background-color: var(--color-blue);
-}
-
-.sobre .sobre-conteudo .skills-item .percentual{
-    line-height: 60px;
-    position: absolute;
-    right: 0;
-    top:-40px;
-    font-weight: 400;
-    font-size: 15px; 
-    color: var(--color-text)
 }
 
 .sobre .sobre-conteudo .educacao{
@@ -647,72 +588,6 @@ input, textarea, select{
     margin: 0;
 }
 
-/*PORTFOLIO*/
-
-.portfolio .portfolio-item{
-    -ms-flex: 0 0 33.33%;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
-    /*Para deixar todos os cards do mesmo comprimento*/
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    
-}
-
-.portfolio .portfolio-item-inner{
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid var(--color-border);
-    background-color: var(--color-timeline);
-}
-
-.portfolio .portfolio-item-inner .portfolio-img {
-    position: relative;
-}
-
-.portfolio .portfolio-item-inner:hover .portfolio-img{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.portfolio .portfolio-item-inner .portfolio-img img{
-    width: 100%;
-    display: block;
-    -webkit-transition: all 0.5s ease ;
-    transition: all 0.5s ease ;
-} 
-
-.portfolio .portfolio-item-inner .portfolio-info{
-    padding: 30px 15px;
-    background-color: var(--color-timeline);
-}
-
-.portfolio .portfolio-item-inner .portfolio-info .portfolio-title{
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--color-title);
-    text-transform: capitalize;
-    margin-bottom: 10px;
-    
-}
-.portfolio .portfolio-item-inner .portfolio-info  .portfolio-text{
-    font-size: 16px;
-    line-height: 25px;
-    color: var(--color-text);
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-
-.portfolio .portfolio-item-inner .portfolio-info .portfolio-tags{
-    font-size: 14px;
-    line-height: 25px;
-    color: var(--color-text);
-    font-weight: 400;
-    text-transform: capitalize;
-}
-
 /*PÁGINA DE CONTATO*/
 
 .contact .contact-info-item{
@@ -866,16 +741,6 @@ input, textarea, select{
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .portfolio .portfolio-item{
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-        margin-bottom: 30px;
-        /*Para deixar todos os cards do mesmo comprimento*/
-        display: -ms-flexbox;
-        display: flex;
-        
-    }
 }
 
 @media (max-width: 767px){
@@ -883,8 +748,7 @@ input, textarea, select{
     .service .service-item-inner,
     .sobre .sobre-conteudo .educacao,
     .sobre .sobre-conteudo .experiencia, 
-    .sobre .sobre-conteudo .cursos, 
-    .sobre .sobre-conteudo .skills{
+    .sobre .sobre-conteudo .cursos{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -902,30 +766,10 @@ input, textarea, select{
          display: inline-block;
      
      }
-     .portfolio .portfolio-item{
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-        margin-bottom: 30px;
-        /*Para deixar todos os cards do mesmo comprimento*/
-        display: -ms-flexbox;
-        display: flex;
-        
-    }
 }
 
 @media (max-width: 650px){
-
-    .portfolio .portfolio-item{
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-bottom: 30px;
-        /*Para deixar todos os cards do mesmo comprimento*/
-        display: -ms-flexbox;
-        display: flex;
-        
-    }
+    /* Sem regras específicas para esta resolução */
 }
 
 @media (max-width: 550px){
@@ -957,11 +801,6 @@ input, textarea, select{
         width: 35px;
         line-height: 35px;
         margin: 0 3px;
-     }
-
-     .lateral .perfil img {
-        width: 150px;
-        height: 150px;
      }
 }
 
