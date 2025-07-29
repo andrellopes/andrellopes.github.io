@@ -54,39 +54,7 @@ input, textarea, select{
     transition: all 0.3s ease;
 }
 
-/*Transição das páginas*/
-.section.back-section{
-    z-index: 1;
-}
 
-.section.active{
-    opacity: 1;
-    z-index: 2;
-    -webkit-animation: slideSection 1s ease;;
-    animation: slideSection 1s ease;
-}
-
-@-webkit-keyframes slideSection{
-    0%{
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-    100%{
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-}
-
-@keyframes slideSection{
-    0%{
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-    100%{
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-}
 
 .section .container{
     padding-top: 60px;
@@ -174,9 +142,6 @@ input, textarea, select{
     transform: scale(1.1);
 }
 
-.hidden{
-    display: none!important;
-}
 /*fim-configurações do meio do home*/
 
 
@@ -354,6 +319,8 @@ input, textarea, select{
 
 .home .intro .redes-sociais{
     margin-top: 25px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .home .intro .redes-sociais a{
@@ -670,6 +637,29 @@ input, textarea, select{
 }
 
 /*RESPONSIVIDADE*/
+
+/* Botões do formulário de contato */
+.contato-btn {
+    font-size: 18px !important;
+    min-width: 180px;
+    margin-bottom: 0;
+}
+.whatsapp-btn {
+    background: #25D366 !important;
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .contato-btn {
+        display: block;
+        width: 100%;
+        margin: 0 0 12px 0 !important;
+        font-size: 17px !important;
+    }
+    .whatsapp-btn {
+        margin-left: 0 !important;
+    }
+}
 
 @media (max-width:1600px){
     .lateral {
